@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+#Model {
+    position: sticky;
+    left: 0;
+    top: 0;
+    transform: translateX(-40%);
+}
+
+.sections {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* .ari_pods_model {
+    position: sticky;
+    top: 50%;
+    transform: translateY(-50%);
+} */
+
+.ari_pods,
+.beats,
+.apple_watch {
+    width: 100%;
+    padding: 0 80px;
+}
+
+.section_container {
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.ari_pods {
+    background-color: #1C1C1C;
+}
+
+.beats {
+    background-color: #fff;
+}
+
+.apple_watch {
+    background-color: #92B7FF;
+}
+
+.model_section {
+    width: 400px;
+}
+
+.text {
+    width: 350px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    text-align: left;
+    margin: 120px;
+}
+
+.text > .title {
+    font-size: 82px; 
+    font-weight: 100;
+    margin-bottom: 50px;
+}
+
+.ari_pods > .section_container > .text {
+    color: #fff;
+}
+
+.text > .description {
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.beats > .section_container > .model_section {
+    order: 1;
+    width: 500px;
+}
+
+.beats > .text {
+    color: #000;
+}
